@@ -1,0 +1,19 @@
+http://math.hws.edu/javanotes/c1/index.html - Understand how computer programs are executed by cpu, structure of a Java program,
+everything else we need to learn Java labguage.
+https://www.geeksforgeeks.org/differences-jdk-jre-jvm/ - Java program is compiled by compiler and we get java bytecode. Java bytecode is
+a understandable code for java interpreter(JVM), compiler is computer software that transforms computer code written in one programming
+language (the source language) into another programming language (the target language). A Java compiler is a compiler for the programming
+language Java. The most common form of output from a Java compiler is Java class files containing platform-neutral Java bytecode.
+For Java it has a dedicated compiler called Javac. Javac Compiles your Java code into Bytecode. And then we have the JVM which uses that 
+bytecode to convert it to machine code, JIT (just-in-time) compiler inside JVM do this conversion. Machine code is code in machine language
+that is in the form of binary (0,1) is computer language that is directly understandable by a computer's CPU (central processing unit), and
+it is the language into which all programs must be converted before they can be run. If you are wondering how CPU executes and understands
+instruction in machine level language that is 0 and 1, it happens through transistors which are either ON(read as 1) or OFF (read as 0).
+
+Learn about how CPU perform stuffs-
+How CPU is designed with live digital logic working explained(2h30m video) - https://youtu.be/Kbbzwabgtok
+How CPU Works -(a) https://youtu.be/AHEgNpYbafs (Short) 
+               (b) https://youtu.be/cNN_tTXABUA (Detailed)
+How CPU is made(Hardware, Inter Corei5) - https://youtu.be/d9SWNLZvA8g
+How CPU transistors process data(logical) - https://youtu.be/VBDoT8o4q00
+How 0's and 1's are represented in CPU Transistors - https://youtu.be/Xpk67YzOn5w (short and easy)
