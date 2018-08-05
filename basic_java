@@ -4,11 +4,14 @@ https://www.geeksforgeeks.org/differences-jdk-jre-jvm/ - Java program is compile
 a understandable code for java interpreter(JVM), compiler is computer software that transforms computer code written in one programming
 language (the source language) into another programming language (the target language). A Java compiler is a compiler for the programming
 language Java. The most common form of output from a Java compiler is Java class files containing platform-neutral Java bytecode.
-For Java it has a dedicated compiler called Javac. Javac Compiles your Java code into Bytecode. And then we have the JVM which uses that 
-bytecode to convert it to machine code, JIT (just-in-time) compiler inside JVM do this conversion. Machine code is code in machine language
-that is in the form of binary (0,1) is computer language that is directly understandable by a computer's CPU (central processing unit), and
-it is the language into which all programs must be converted before they can be run. If you are wondering how CPU executes and understands
-instruction in machine level language that is 0 and 1, it happens through transistors which are either ON(read as 1) or OFF (read as 0).
+For Java it has a dedicated compiler called Javac. Javac Compiles 
+
+r Java code into Bytecode. And then we have the JVM which uses that 
+bytecode to convert it to machine code, JIT (just-in-time) compiler inside JVM do this conversion. Machine code is code in machine
+language that is in the form of binary (0,1) is computer language that is directly understandable by a computer's CPU 
+(central processing unit), and it is the language into which all programs must be converted before they can be run. Wondering how 
+CPU executes and understands instruction in machine level language that is 0 and 1, it happens through transistors which are either 
+ON(read as 1) or OFF (read as 0), ALU, refer to video links below to understand the process.
 
 Learn about how CPU perform stuffs-
 How CPU is designed with live digital logic working explained(2h30m video) - https://youtu.be/Kbbzwabgtok
@@ -17,3 +20,42 @@ How CPU Works -(a) https://youtu.be/AHEgNpYbafs (Short)
 How CPU is made(Hardware, Inter Corei5) - https://youtu.be/d9SWNLZvA8g
 How CPU transistors process data(logical) - https://youtu.be/VBDoT8o4q00
 How 0's and 1's are represented in CPU Transistors - https://youtu.be/Xpk67YzOn5w (short and easy)
+
+
+
+Fundamental Building Blocks of Programs
+To work with data, we need to understand variables and types; to work with instructions,we need to understand control structures and 
+subroutines.
+A variable is just a memory location (or several consecutive locations treated as a unit) that has been given a name so that it can be 
+easily referred to and used in a program. The programmer only has to worry about the name; it is the compiler's responsibility to keep 
+track of the memory location. As a programmer, we need to keep in mind that the name refers to a kind of "box" in memory that can hold 
+data, even though we don't have to know where in memory that box is located.
+Programming languages always have commands for getting data into and out of variables and for doing computations with data.
+There are also "input commands" for getting data from the user or from files on the computer's disks, and there are "output commands" 
+for sending data in the other direction.
+These basic commands -- for moving data from place to place and for performing computations -- are the building blocks for all programs.
+These building blocks are combined into complex programs using control structures and subroutines.
+A program is a sequence of instructions. In the ordinary "flow of control," the computer executes the instructions in the sequence in 
+which they occur in the program, one after the other. However, this is obviously very limited: the computer would soon run out of 
+instructions to execute. Control structures are special instructions that can change the flow of control. There are two basic types 
+of control structure: loops, which allow a sequence of instructions to be repeated over and over, and branches, which allow the 
+computer to decide between two or more different courses of action by testing conditions that occur as the program is running.
+Loops are used when the same task has to be performed more than once. 
+
+Large programs are so complex that it would be almost impossible to write them if there were not some way to break them up into 
+manageable "chunks." Subroutines provide one way to do this. A subroutine consists of the instructions for performing some task, 
+grouped together as a unit and given a name. That name can then be used as a substitute for the whole set of instructions. For example, 
+suppose that one of the tasks that our program needs to perform is to draw a house on the screen. We can take the necessary 
+instructions, make them into a subroutine, and give that subroutine some appropriate name -- say, "drawHouse()". Then anyplace in our 
+program where we need to draw a house, we can do so with the single command: 
+                                                                                drawHouse();
+This will have the same effect as repeating all the house-drawing instructions in each place.
+The advantage here is not just that we save typing. Organizing our program into subroutines also helps we organize our thinking and 
+our program design effort. While writing the house-drawing subroutine, we can concentrate on the problem of drawing a house without 
+worrying for the moment about the rest of the program. And once the subroutine is written, we can forget about the details of drawing 
+houses -- that problem is solved, since we have a subroutine to do it for we. A subroutine becomes just like a built-in part of the 
+language which we can use without thinking about the details of what goes on "inside" the subroutine.
+
+Variables, types, loops, branches, and subroutines are the basis of what might be called "traditional programming." However, as programs
+become larger, additional structure is needed to help deal with their complexity. One of the most effective tools that has been found 
+is object-oriented programming, which is in the next file.
