@@ -4,10 +4,9 @@ https://www.geeksforgeeks.org/differences-jdk-jre-jvm/ - Java program is compile
 a understandable code for java interpreter(JVM), compiler is computer software that transforms computer code written in one programming
 language (the source language) into another programming language (the target language). A Java compiler is a compiler for the programming
 language Java. The most common form of output from a Java compiler is Java class files containing platform-neutral Java bytecode.
-For Java it has a dedicated compiler called Javac. Javac Compiles 
-
-r Java code into Bytecode. And then we have the JVM which uses that 
-bytecode to convert it to machine code, JIT (just-in-time) compiler inside JVM do this conversion. Machine code is code in machine
+For Java it has a dedicated compiler called Javac. 
+Javac Compiles Java code into Bytecode. And then we have the JVM which uses that bytecode to convert it to machine code, 
+JIT (just-in-time) compiler inside JVM do this conversion. Machine code is code in machine
 language that is in the form of binary (0,1) is computer language that is directly understandable by a computer's CPU 
 (central processing unit), and it is the language into which all programs must be converted before they can be run. Wondering how 
 CPU executes and understands instruction in machine level language that is 0 and 1, it happens through transistors which are either 
